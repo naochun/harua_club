@@ -1,0 +1,168 @@
+.container{
+    max-width:1300px;
+    padding:0 15px;
+    margin:0 auto;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+li{
+    padding-top:10px;
+    list-style:none;
+    font-size:13px;
+}
+header{
+    background-color: rgba(255, 227, 194, 0.902);
+    width:100%;
+    height:80px;
+    position:fixed;
+    top:0;
+    z-index: 10;
+    
+}
+
+.header-left img{
+    width:300px;
+    float:left;
+
+}
+.header-right a{
+    color:black;
+    float:right;
+    background-color:ivory;
+    line-height: 75px;
+    padding:0 20px;
+    border:1px solid black;
+    border-radius: 4px;
+}
+.top{
+    background-color:ivory;
+    top:0;
+    background-size: cover;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.top h1{
+    padding-top:250px;
+    font-size:50px;
+}
+.top h2{
+    font-size:35px;
+    padding-bottom:100px;
+}
+.top p{
+    font-size:20px;
+}
+.top a{
+    background-color:rgba(255, 227, 194);
+    padding:30px 50px;
+    margin-bottom:100px;
+    display:inline-block;
+    border-radius: 4px;
+    color:black;
+    
+}
+.explanation{
+    padding-top:100pxs;
+}
+.list a{
+    color:black;
+    font-size:25px;
+    display: inline-block;
+    margin:50px 60px;
+}
+.mail h2{
+    border-bottom:1px solid rgba(104, 103, 103, 0.849);
+}
+.box{
+    width:300px;
+    padding-left:40px;
+}
+.box p{
+    padding-top:30px
+}
+.mail-address{
+    padding:10px 20px;
+    width:100%;
+}
+.question{
+    width:100%;
+    padding:10px 20px;
+    height: 60px;
+}
+.btn{
+    display: block;
+    font-size:15px;
+    margin-top:50px;
+    padding:15px 80px;
+}
+.explanation h2{
+    border-bottom:1px solid rgba(104, 103, 103, 0.849);
+}
+.message{
+    padding-bottom:80px;
+    border-bottom:1px solid rgba(141, 141, 141, 0.514);;
+}
+footer{
+    height: 90px;
+}
+.footer-right{
+    float:right;
+    padding-right:40px;
+}
+
+@media(max-width:670px){
+    header{
+        height:50px;
+    }  
+    .header-left img{
+        width:200px;
+        float:left;
+    }
+    .header-right a{
+        line-height: 45px;
+        padding:0 10px;
+    }
+    .top h1{
+        text-align: left;
+        padding-top:70px;
+        font-size:25px;
+    }
+    .top h2{
+        text-align: left;
+        font-size:20px;
+        padding-bottom:50px;
+    }
+    .top p{
+        font-size:15px;
+    }
+    .top a{
+        padding:10px 20px;
+        margin-bottom:50px;
+        
+    }
+    .list a{
+        font-size:15px;
+        display:block;
+        text-align: center;
+    }
+    .box p{
+        padding-top:30px
+    }
+    .mail-address{
+        padding:5px 10px;
+        width:100%;
+    }
+    .question{
+        width:100%;
+        padding:5px 10px;
+        height: 60px;
+    }
+    .btn{
+        margin-top:50px;
+        margin:0 auto;
+        padding:15px 80px;
+    }
+    .explanation h2{
+        border-bottom:1px solid rgba(104, 103, 103, 0.849);
+    }
+}

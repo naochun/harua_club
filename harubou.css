@@ -110,7 +110,7 @@ footer{
     padding-right:40px;
 }
 
-@media(max-width:0px){
+@media(max-width:750px){
     header{
         height:50px;
     }  
